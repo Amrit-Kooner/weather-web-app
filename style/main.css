@@ -1,0 +1,140 @@
+/* --------------------------------------------- GLOBAL */
+:root{
+
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #362023;
+    /* color: ; */
+    font-size: 1.6rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    background-color: #E5E059;
+    border-radius: 50%;
+    border: 5px solid #999799;
+    position: relative;
+}
+
+.btn:hover{
+    background: #BDD358;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+
+/* --------------------------------------------- MAIN */
+.app{
+    background-color: #999799;
+    width: 100%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 50px;
+    position: relative;
+    border: 5px solid #E5625E;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input,
+.country-select{
+    align-self: center;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    padding-left: 15px;
+}
+
+.search input{
+    flex: 1;
+    transform: translateX(25px);
+    min-width: 50px
+}
+
+.container{
+    display: none;
+}
+
+.details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-img{
+    margin-top: 15px;
+    width: 50%;
+}
+
+.weather-info-p1{
+    border-left: 3px solid #E5625E;
+    padding-left: 50px;
+    flex: 1;
+}
+
+.weather-info-p1 > *{
+    margin-bottom: 5px;
+}
+
+.weather-info-p1 .desc{
+    text-transform: capitalize;
+}
+
+.weather-info-p2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.card{
+    text-align: center;
+    text-transform: capitalize;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .title{
+    font-weight: bold;
+}
+
+.card img{
+    width: 50%;
+    height: 50%;
+}
+
+.clear-btn{
+    display: block;
+    margin-left: auto;
+}
+
+.search input:focus,
+.country-select:focus{
+    outline: 0;
+}
