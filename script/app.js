@@ -13,28 +13,28 @@ function updateImage(weather){
 
     switch(weather){
         case "Sunny":
-            imgElement.src = "/img/sun.svg";
+            imgElement.src = "img/sun.svg";
             break;
         case "Rain":
-            imgElement.src = "/img/rain.svg";
+            imgElement.src = "img/rain.svg";
             break;
         case "Clear":
-            imgElement.src = "/img/clear.svg";
+            imgElement.src = "img/clear.svg";
             break;
         case "Clouds":
-            imgElement.src = "/img/clouds.svg";
+            imgElement.src = "img/clouds.svg";
             break;
         case "Mist":
-            imgElement.src = "/img/mist.svg";
+            imgElement.src = "img/mist.svg";
             break;
         case "Drizzle":
-            imgElement.src = "/img/drizzle.svg";
+            imgElement.src = "img/drizzle.svg";
             break;
         case "Snow":
-            imgElement.src = "/img/snow.svg";
+            imgElement.src = "img/snow.svg";
             break;
         case "Thunderstorm":
-            imgElement.src = "/img/thunderstorm.svg";
+            imgElement.src = "img/thunderstorm.svg";
             break;   
     }
 }
